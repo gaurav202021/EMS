@@ -24,5 +24,14 @@ EMS System
 	APPROVED,
 	ACTIVE)
  
+> open http://localhost:8090/swagger-ui.html
+> add employee using post api in swagger
+> get employee list using swagger
+> update employee using id and status(ADDED,
+	IN_CHECK,
+	APPROVED,
+	ACTIVE)
 
-###End
+
+
+##End
