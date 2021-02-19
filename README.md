@@ -15,11 +15,11 @@ EMS System
 # Open a swagger to browser
 	http://localhost:8090/swagger-ui.html
 
-# Run Testing
- -1)open http://localhost:8090/swagger-ui.html
- -2)add employee
- -3)get employee list using swagger
- -4)update employee using id and status(ADDED,
+## Run Testing
+ >1)open http://localhost:8090/swagger-ui.html
+ >2)add employee
+ >3)get employee list using swagger
+ >4)update employee using id and status(ADDED,
 	IN_CHECK,
 	APPROVED,
 	ACTIVE)
