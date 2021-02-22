@@ -77,6 +77,31 @@ public class Employee {
 	@JsonFormat
 	private EmsStatusEnum status;
 
+	public Employee()
+	{
+		
+	}
+
+	public Employee(Long id, String name, Integer age, String city, String state, Integer zip, String job_title,
+			String company_name, Date birthdate, Integer salary, String department, String phoneNumber,
+			EmsStatusEnum status) {
+		this.id = id;
+		this.name = name;
+		this.age = age;
+		this.city = city;
+		this.state = state;
+		this.zip = zip;
+		this.job_title = job_title;
+		this.company_name = company_name;
+		this.birthdate = birthdate;
+		this.salary = salary;
+		this.department = department;
+		this.phoneNumber = phoneNumber;
+		this.status = status;
+	}
+
+
+
 	public void setstatus(EmsStatusEnum status) {
 		this.status = status;
 	}

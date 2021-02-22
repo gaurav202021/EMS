@@ -71,7 +71,7 @@ public class EMSController {
 	public ResponseEntity<WsResponse> getAllEmployee() throws EmsException {
 		LOGGER.info("Get All Employee !!!");
 		WsResponse wsResponse = employeeHandler.getAllEmployee();
-		return new ResponseEntity<WsResponse>(wsResponse, HttpStatus.CREATED);
+		return new ResponseEntity<WsResponse>(wsResponse, HttpStatus.OK);
 
 	}
 
