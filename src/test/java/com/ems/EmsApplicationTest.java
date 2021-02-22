@@ -77,13 +77,6 @@ class EmsApplicationTest {
 	
 	@Test
 	public void testUpdateEmployee() throws EmsException {
-		
-		// given
-		Employee employee1 = new Employee(1L, "test", 18, "Mumbai", "MH", 858585, "dev", "Infosys", null,
-				null, null, "1234567890", EmsStatusEnum.ACTIVE );
-		WsResponse emp = new WsResponse();
-		emp.setData(employee1);
-		when(employeeHandler.getAllEmployee()).thenReturn(emp);
 
 		// when
 		ResponseEntity<WsResponse> responseEntity = employeeController.updateEmployeeStatus(1L, "ACTIVE");
